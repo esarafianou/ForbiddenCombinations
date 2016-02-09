@@ -13,12 +13,12 @@ for C program:
 compile: gcc –std=c99 -Wall –Werror -O3 -o forbidden forbidden.c  
 execute ./forbidden forbidden.txt
 
-for OCaml program:
-compile: ocamlc -o dangerFinal forbiddenComb.ml 
+for OCaml program:  
+compile: ocamlc -o dangerFinal forbiddenComb.ml   
 execute: ./fobiddenComb "forbidden.txt"
 
 
-where forbidden.txt could be:
+forbidden.txt could be:
 
 8 5   
 2 1 2   
