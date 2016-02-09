@@ -14,7 +14,7 @@ compile: gcc –std=c99 -Wall –Werror -O3 -o forbidden forbidden.c
 execute ./forbidden forbidden.txt
 
 for OCaml program:  
-compile: ocamlc -o dangerFinal forbiddenComb.ml   
+compile: ocamlc -o forbiddenComb forbiddenComb.ml   
 execute: ./forbiddenComb "forbidden.txt"
 
 
