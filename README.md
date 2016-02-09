@@ -15,7 +15,7 @@ execute ./forbidden forbidden.txt
 
 for OCaml program:  
 compile: ocamlc -o dangerFinal forbiddenComb.ml   
-execute: ./fobiddenComb "forbidden.txt"
+execute: ./forbiddenComb "forbidden.txt"
 
 
 forbidden.txt could be:
