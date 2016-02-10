@@ -28,3 +28,4 @@ forbidden.txt could be:
 3 5 6 4   
   
 and the expected output: 1 3 5 6 8
+
